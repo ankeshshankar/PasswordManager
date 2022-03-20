@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/home_navigation.xml"
+    app:startDestination="@id/myPassword">
+
+    <fragment
+        android:id="@+id/myPassword"
+        android:name="com.passwordManager.app.ui.bottom_menu.MyPassword"
+        android:label="Password List"
+        tools:layout="@layout/fragment_my_password" />
+    <fragment
+        android:id="@+id/categories"
+        android:name="com.passwordManager.app.ui.bottom_menu.Categories"
+        android:label="Categories"
+        tools:layout="@layout/fragment_categories" />
+    <fragment
+        android:id="@+id/tags"
+        android:name="com.passwordManager.app.ui.bottom_menu.Tags"
+        android:label="Tags"
+        tools:layout="@layout/fragment_tags" />
+    <fragment
+        android:id="@+id/profile"
+        android:name="com.passwordManager.app.ui.bottom_menu.Profile"
+        android:label="Profile"
+        tools:layout="@layout/fragment_profile" />
+</navigation>

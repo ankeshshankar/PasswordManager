@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/my_password"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_vpn_key_24"
+        android:title="@string/my_password" />
+    <item
+        android:id="@+id/categories"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_category_24"
+        android:title="@string/categories" />
+    <item
+        android:id="@+id/tags"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_local_offer_24"
+        android:title="@string/tags" />
+    <item
+        android:id="@+id/profile"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_person_24"
+        android:title="@string/profile" />
+</menu>
